@@ -1,0 +1,4 @@
+#Tue Sep 15 23:13:50 BRT 2020
+base.0=/Volumes/HDDADOS/Projetos/Testes/Ecommerce App/ecommerce/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
