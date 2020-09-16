@@ -28,5 +28,3 @@ This project was developed with the following technologies:
 - ✔️ React Hooks
 
 - ✔️ Styled-components
-
-- ✔️ Axios
