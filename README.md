@@ -3,10 +3,15 @@ Ecommerce App
 </h1>
 
 <p align="center">Application of a  Marketplace, with some of its products and the user can be add on the cart.</p>
-
-<div align="center" >
-  <img src="./github/Corsair.gif" alt="demo-web">
-</div>
+<p align="left">
+Usuário para acessar o aplicativo
+</p>
+<p align="left">
+email: jose@gmail.com
+</p>
+<p align="left">
+senha: 123456
+</p>
 
 <hr />
 
