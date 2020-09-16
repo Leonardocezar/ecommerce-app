@@ -16,6 +16,7 @@ interface Product {
   description: string;
   price: number;
   quantity: number;
+  rating: Array<number>;
 }
 
 interface CartContext {

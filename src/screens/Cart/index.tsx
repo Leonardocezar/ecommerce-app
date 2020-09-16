@@ -31,6 +31,7 @@ const Cart: React.FC = () => {
               title={item.name}
               price={item.price}
               amount={item.quantity}
+              rating={item.rating}
             />
           )}
           keyExtractor={(item) => String(item.id)}
