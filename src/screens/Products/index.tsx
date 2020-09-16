@@ -27,7 +27,7 @@ const Product: React.FC = () => {
   const [products, setProducts] = useState<ProductInterface[]>([]);
   const [itemName, setItemName] = useState<string>('');
   const [initialCount, setInitialCount] = useState<number>(0);
-  const [finalCount, setFinalCount] = useState<number>(6);
+  const [finalCount, setFinalCount] = useState<number>(10);
   const [loadingList, setLoadingList] = useState<boolean>(false);
   const [openModal, setopenModal] = useState(false);
   useEffect(() => {
