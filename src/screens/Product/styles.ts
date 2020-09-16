@@ -48,6 +48,7 @@ export const Comments = styled.View`
   display: flex;
   flex-direction: column;
   padding: 0px 10px;
+  margin: 0px 0px 20px 0px;
 `;
 
 export const ProductButtonContainer = styled.TouchableOpacity.attrs({
@@ -114,15 +115,21 @@ export const ProductRemoveLabel = styled.Text`
 export const CustomerContainer = styled.View`
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  padding: 4px;
+  border-bottom-width: ${StyleSheet.hairlineWidth}px;
+  border-bottom-color: #ccc;
 `;
 export const CustomerName = styled.Text`
   margin: 2px;
 `;
 export const CustomerOpinion = styled.Text`
   display: flex;
+  flex: 1;
+  flex-direction: row;
   flex-wrap: wrap;
-  margin: 2px;
+  font-size: 14px;
+  color: #999;
+  font-weight: 300;
 `;
