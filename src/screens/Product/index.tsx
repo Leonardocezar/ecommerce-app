@@ -89,7 +89,7 @@ const Product: React.FC = () => {
           />
           <Label> Baseado em {amountRating} avaliações</Label>
         </Item>
-        <Description>Descrição do Produto</Description>
+        <Description>{product[0]?.description}</Description>
         <Price>{formatValue(product[0]?.price)}</Price>
 
         <ProductButtonBuy onPress={() => handleBuyToCart(product[0])}>

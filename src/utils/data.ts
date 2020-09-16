@@ -5,7 +5,8 @@ const Products = [
     price: 59.99,
     avatar:
       'https://imgcentauro-a.akamaihd.net/900x900/9265380P/tenis-oxer-slip-feminino-img.jpg',
-    description: '',
+    description:
+      'Com estrutura em material têxtil, o Tênis Oxer Feminino é uma ótima escolha para todos os momentos do seu dia. Seu solado conta com detalhes emborrachados que garantem aderência e durabilidade em zonas de maior impacto. E, para complementar, o Tênis Slip não possui cadarço, porém apresenta passante com puxador em tecido no contraforte traseiro que facilita o seu calce. Aproveite a oportunidade e compre o seu',
     carousel: [
       {
         id: 1,
