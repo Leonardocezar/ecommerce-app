@@ -50,8 +50,12 @@ const Product: React.FC = () => {
     setProducts(prod);
   }
   function loadMoreProducts() {
-    //corrigir
     setLoadingList(true);
+    if (finalCount && initialCount > Products.length) {
+      setLoadingList(false);
+    }
+    setInitialCount(finalCount);
+    setFinalCount(finalCount * 2);
     const response = Products;
     const data = response.slice(0, finalCount);
     setProducts(data);
